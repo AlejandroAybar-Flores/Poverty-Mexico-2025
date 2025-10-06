@@ -1,0 +1,14 @@
+The dataset used in this project comes from the Instituto Nacional de Estadística y Geografía (INEGI), which publicly releases the results of the Multidimensional Poverty Measurement for Mexico corresponding to the year 2024.
+The methodological foundations for this measurement are established in the General Law of Social Development (Ley General de Desarrollo Social, LGDS), which defines the mandatory dimensions of poverty, the minimum frequency of measurement, the levels of data aggregation, and the official information sources to be used.
+
+As in previous years, the primary data source for the multidimensional poverty measurement is the National Survey on Household Income and Expenditure (Encuesta Nacional de Ingresos y Gastos de los Hogares, ENIGH) conducted by INEGI for the same year.
+
+The official dataset and methodological documentation are available on INEGI’s website:
+🔗 https://www.inegi.org.mx/desarrollosocial/pm/#documentacion
+
+This link provides access to a ZIP file containing:
+- The computational algorithms used by INEGI to calculate multidimensional poverty indicators (including an official R script version).
+- The final poverty database, which consolidates the results of the multidimensional poverty estimation.
+- The ENIGH modules corresponding to the different dimensions (e.g., income, education, social security, housing, and basic services), which can be used for further analysis or replication of the poverty measurement process.
+
+For this project, the R-based computation algorithm provided by INEGI was employed to reproduce and analyze the 2024 multidimensional poverty results using the official methodology. All analyses and derived datasets in this repository are therefore consistent with INEGI’s public documentation and methodological standards.
